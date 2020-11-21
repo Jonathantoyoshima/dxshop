@@ -1,0 +1,18 @@
+{
+	"cola": {
+		"id": 0,
+		"idCategory": 0,
+		"name": "Coca-cola lata",
+		"description": "Coca-cola lata 350ml",
+		"price": 3.5,
+		"image": "/static/image/coca-lata.png"
+	},
+	"fanta": {
+		"id": 1,
+		"idCategory": 0,
+		"name": "Fanta lata",
+		"description": "Fanta lata 350ml",
+		"price": 3.5,
+		"image": "/static/image/fanta-lata.png"
+	}
+}

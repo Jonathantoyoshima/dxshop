@@ -1,10 +1,9 @@
 import { Input } from 'Styles';
-import { Root, Text } from './styles';
+import { Root } from './styles';
 
 const SearchBar = () => {
 	return (
 		<Root>
-			<Text>Procurar um livro:</Text>
 			<Input />
 		</Root>
 	);

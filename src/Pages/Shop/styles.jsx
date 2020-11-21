@@ -4,6 +4,6 @@ export const List = styled.div`
 `;
 
 export const Title = styled.h1`
-    font-size: 20px;
+    font-size: 2rem;
     text-transform: uppercase;
 `;

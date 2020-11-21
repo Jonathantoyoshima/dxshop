@@ -1,11 +1,11 @@
 import { Root, Title } from './styles';
 import { Button } from 'Styles';
 
-const Card = ({title, link}) => {
+const Card = ({ title, link }) => {
 	return (
 		<Root>
 			<Title>{title}</Title>
-			<Button>Selecionar</Button>
+			<Button>Adicionar ao carrinho</Button>
 		</Root>
 	);
 };

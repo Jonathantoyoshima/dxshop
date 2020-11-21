@@ -1,9 +1,12 @@
-import {Root} from "./styles";
+import { Root } from './styles';
+import { Container } from 'Styles';
+import CartButton from 'Components/CartButton';
 
 const Header = () => {
 	return (
 		<Root>
-			Logo
+			<Container>Logo</Container>
+			<CartButton />
 		</Root>
 	);
 };

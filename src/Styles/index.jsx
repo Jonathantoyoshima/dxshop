@@ -43,9 +43,9 @@ export const Wrapper = styled.div`
 `;
 
 export const Button = styled.button`
-	padding: 10px 30px;
+	padding: 8px 24px;
 	text-transform: uppercase;
-	letter-spacing: 0.3rem;
+	letter-spacing: 0.2rem;
 	border-radius: 10px;
 	background-color: ${(props) =>
 		props.theme.color.primary.dark};

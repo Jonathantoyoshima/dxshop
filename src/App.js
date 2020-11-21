@@ -1,6 +1,7 @@
-import "./App.css";
+import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { theme, General } from 'Styles';
+import Checkout from 'Pages/Checkout';
 import Shop from 'Pages/Shop';
 import {
 	Switch,
@@ -14,6 +15,7 @@ const App = () => {
 			<General>
 				<HashRouter basename='/'>
 					<Switch>
+						<Route path='/checkout' component={Checkout} />
 						<Route path='/' component={Shop} />
 					</Switch>
 				</HashRouter>
