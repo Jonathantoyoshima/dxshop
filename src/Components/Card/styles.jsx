@@ -15,6 +15,6 @@ export const Title = styled.div`
 	align-items: center;
 	color: ${(props) => props.theme.color.basic.black};
 	display: flex;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	flex: 1;
 `;

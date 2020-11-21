@@ -6,6 +6,7 @@ export const Button = styled.button`
   border: 0;
   right: 16px;
   position: absolute;
+  cursor: pointer;
 `;
 
 export const Icon = styled.img`
