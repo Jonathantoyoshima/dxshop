@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Build SearchBar Snapshot 1`] = `
+<div
+  className="sc-jSgupP jxRKxB"
+>
+  <div
+    className="sc-gKsewC KiYnc"
+  >
+    Procurar um livro:
+  </div>
+  <input
+    className="sc-eCssSg hyIYus"
+  />
+</div>
+`;

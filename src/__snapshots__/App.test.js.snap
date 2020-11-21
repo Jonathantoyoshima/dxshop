@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Build App Snapshot 1`] = `
+<div
+  className="sc-bdfBwQ fTJNKW"
+>
+  <div
+    className="sc-gsTCUz cPxDYL"
+  >
+    <div
+      className="sc-jSgupP cRtXmq"
+    >
+      <label
+        htmlFor="User"
+      >
+        Usuário: 
+      </label>
+      <input
+        className="sc-eCssSg hyIYus"
+        id="User"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-jSgupP cRtXmq"
+    >
+      <label
+        htmlFor="pass"
+      >
+        Senha:
+      </label>
+      <input
+        className="sc-eCssSg hyIYus"
+        id="pass"
+        type="password"
+      />
+    </div>
+    <button
+      className="sc-hKgILt jEJLIv"
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

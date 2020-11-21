@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Build Card Snapshot 1`] = `
+<div
+  className="sc-jSgupP gcxACO"
+>
+  <div
+    className="sc-gKsewC gmfBla"
+  >
+    Livro 1
+  </div>
+  <button
+    className="sc-hKgILt jEJLIv"
+  >
+    Adicionar
+  </button>
+</div>
+`;
