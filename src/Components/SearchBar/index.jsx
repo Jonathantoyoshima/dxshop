@@ -1,10 +1,12 @@
-import { Input } from 'Styles';
+import { Select } from 'Styles';
 import { Root } from './styles';
 
 const SearchBar = () => {
   return (
     <Root>
-      <Input />
+      <Select>
+        <option>Selecione aqui uma categoria</option>
+      </Select>
     </Root>
   );
 };
