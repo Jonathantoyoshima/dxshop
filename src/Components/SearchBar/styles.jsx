@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 export const Root = styled.div`
     align-items: center;
-    box-sizing: border-box;
     display: flex;
-    margin-bottom: 10px;
-    padding: 30px;
+    margin-bottom: 8px;
+    padding: 8px;
     width: 100%;
     @media only screen and (max-width: 600px) {
         flex-direction: column;

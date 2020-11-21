@@ -1,3 +1,4 @@
+import "./App.css";
 import { ThemeProvider } from 'styled-components';
 import { theme, General } from 'Styles';
 import Shop from 'Pages/Shop';

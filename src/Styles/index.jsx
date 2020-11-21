@@ -25,30 +25,25 @@ export const General = styled.div`
 	${(props) => props.theme.typography.normal};
 `;
 
+export const Container = styled.div`
+	position: relative;
+	width: 100%;
+	max-width: 1080px;
+	padding: 0 16px;
+`;
+
 export const Wrapper = styled.div`
-	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	box-sizing: border-box;
 	color: ${(props) => props.theme.color.basic.white};
 	background-color: ${(props) =>
 		props.theme.color.secondary.dark};
 `;
 
-export const Container = styled.div`
-	position: relative;
-	width: 100%;
-	max-width: 1080px;
-	min-height: 100vh;
-	padding: 0 16px;
-	box-sizing: border-box;
-`;
-
 export const Button = styled.button`
-	padding: 15px 50px;
-	margin: 25px;
+	padding: 10px 30px;
 	text-transform: uppercase;
 	letter-spacing: 0.3rem;
 	border-radius: 10px;
@@ -69,7 +64,7 @@ export const Button = styled.button`
 `;
 
 export const Input = styled.input`
-	padding: 15px;
+	padding: 8px;
 	width: 100%;
 	box-shadow: inset -5px -5px 20px 0px rgba(0, 0, 0, 0.5);
 `;
