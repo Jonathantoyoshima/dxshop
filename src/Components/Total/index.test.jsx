@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Card from './index';
+import Total from './index';
 
-test('Render Build Card Snapshot', () => {
-  const component = renderer.create(<Card />);
+test('Render Build Total Snapshot', () => {
+  const component = renderer.create(<Total />);
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
