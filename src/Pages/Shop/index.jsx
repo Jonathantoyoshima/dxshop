@@ -4,7 +4,7 @@ import { List, Title } from './styles';
 import Card from 'Components/Card';
 import Header from 'Components/Header';
 import SearchBar from 'Components/SearchBar';
-import IconButton from 'Components/IconButton';
+import CartButton from 'Components/CartButton';
 import Cart from 'Images/icon/cart.svg';
 import { StoreContext } from 'Store';
 
@@ -15,7 +15,7 @@ const Shop = () => {
     <Wrapper>
       <Header>
         <Container>Logo</Container>
-        <IconButton src={Cart} to={'/checkout'} alt='cart' />
+        <CartButton src={Cart} to={'/checkout'} alt='cart' />
       </Header>
       <Container>
         <SearchBar />

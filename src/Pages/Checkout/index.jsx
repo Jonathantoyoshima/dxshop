@@ -10,7 +10,7 @@ const Checkout = () => {
   return (
     <Wrapper>
       <Header>
-        <IconButton src={ArrowLeft} to={'/'} position={"left"} alt={"button-back"} />
+        <IconButton src={ArrowLeft} to={'/'} alt={'button-back'} />
         <Container>Logo</Container>
       </Header>
       <Container>

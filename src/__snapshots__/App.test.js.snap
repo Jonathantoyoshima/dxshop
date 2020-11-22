@@ -16,15 +16,21 @@ exports[`Render Build App Snapshot 1`] = `
         Logo
       </div>
       <a
-        className="sc-fodVxV CzwGE"
+        className="sc-fKFyDc hMyCpr"
         href="#/checkout"
         onClick={[Function]}
       >
         <img
           alt="cart"
-          className="sc-fFubgz eAWJbd"
+          className="sc-bBXqnf dvyuDi"
           src="cart.svg"
         />
+        <div
+          className="sc-iwyYcG SGbKj"
+          hidden={false}
+        >
+          0
+        </div>
       </a>
     </div>
     <div

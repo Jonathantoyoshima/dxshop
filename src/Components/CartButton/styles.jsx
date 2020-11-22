@@ -7,7 +7,7 @@ export const Button = styled(Link)`
   border: 0;
   position: absolute;
   cursor: pointer;
-  left: 16px;
+  right: 16px;
 `;
 
 export const Icon = styled.img`
