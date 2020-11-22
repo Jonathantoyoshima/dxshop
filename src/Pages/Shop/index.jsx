@@ -26,7 +26,7 @@ const Shop = () => {
               Number(store.chooseCategory) >= 0 ? Number(item.idCategory) === Number(store.chooseCategory) : true
             )
             .map((item, index) => (
-              <Card key={index} title={item.name} link={'/dom-casmurro'} />
+              <Card key={index} title={item.name} id={item.id} />
             ))}
         </List>
       </Container>

@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import SearchBar from './index';
+import { shallow } from 'enzyme';
 import { Store } from 'Store';
 
 test('Render Build SearchBar Snapshot', () => {

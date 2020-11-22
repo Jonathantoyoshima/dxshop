@@ -68,57 +68,65 @@ exports[`Render Build App Snapshot 1`] = `
         className="sc-bkzZxe"
       >
         <div
-          className="sc-dIUggk jLbckr"
+          className="sc-dIUggk eALwpl"
+          hidden={true}
         >
           <div
-            className="sc-hHftDr dveLzY"
+            className="sc-hHftDr fTMsvB"
           >
             Coca-cola lata 350ml
           </div>
           <button
             className="sc-hKgILt jOWpHX"
+            onClick={[Function]}
           >
             Adicionar ao carrinho
           </button>
         </div>
         <div
-          className="sc-dIUggk jLbckr"
+          className="sc-dIUggk eALwpl"
+          hidden={true}
         >
           <div
-            className="sc-hHftDr dveLzY"
+            className="sc-hHftDr fTMsvB"
           >
             Fanta lata 350ml
           </div>
           <button
             className="sc-hKgILt jOWpHX"
+            onClick={[Function]}
           >
             Adicionar ao carrinho
           </button>
         </div>
         <div
-          className="sc-dIUggk jLbckr"
+          className="sc-dIUggk eALwpl"
+          hidden={true}
         >
           <div
-            className="sc-hHftDr dveLzY"
+            className="sc-hHftDr fTMsvB"
           >
             Bolinho Ana maria
           </div>
           <button
             className="sc-hKgILt jOWpHX"
+            onClick={[Function]}
           >
             Adicionar ao carrinho
           </button>
         </div>
         <div
-          className="sc-dIUggk jLbckr"
+          className="sc-dIUggk eALwpl"
+          hidden={true}
         >
           <div
-            className="sc-hHftDr dveLzY"
+            className="sc-hHftDr fTMsvB"
           >
             Ruffes Pequeno 350g
           </div>
           <button
             className="sc-hKgILt jOWpHX"
+            onClick={[Function]}
           >
             Adicionar ao carrinho
           </button>

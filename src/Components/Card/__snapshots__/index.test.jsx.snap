@@ -1,16 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render Build Card Snapshot 1`] = `
-<div
-  className="sc-bdfBwQ laaUGo"
->
-  <div
-    className="sc-gsTCUz jeowhY"
-  />
-  <button
-    className="sc-jSgupP GixPQ"
-  >
-    Adicionar ao carrinho
-  </button>
-</div>
-`;
+exports[`Render Build Card Snapshot 1`] = `ShallowWrapper {}`;

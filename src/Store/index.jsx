@@ -13,7 +13,9 @@ const data = [
   { id: 3, idCategory: 2, name: 'Ruffes Pequeno 350g', price: 5.0 },
 ];
 
-const info = { data: data, categories: categories, chooseCategory: -1 };
+const cart = [];
+
+const info = { data: data, categories: categories, cart: cart, chooseCategory: -1 };
 
 export const StoreContext = React.createContext(info);
 
