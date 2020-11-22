@@ -3,6 +3,9 @@
     padding: 0; 
     box-sizing: border-box;
 }
+button{
+    transition: all 1s ease;
+}
 
 body {
     background: #011c26;

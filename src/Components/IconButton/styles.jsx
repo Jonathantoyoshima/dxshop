@@ -1,12 +1,15 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const Button = styled.button`
+export const Button = styled(Link)`
   width: 24px;
   background-color: transparent;
   border: 0;
-  right: 16px;
   position: absolute;
   cursor: pointer;
+  ${(props) => {
+    return props.position === 'left' ? 'left: 16px;' : 'right: 16px;';
+  }}
 `;
 
 export const Icon = styled.img`

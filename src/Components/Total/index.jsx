@@ -9,7 +9,7 @@ const Total = () => {
   );
 };
 
-Total.defaultProps = {
+const defaultProps = {
   theme: {
     color: {
       basic: {
@@ -24,5 +24,8 @@ Total.defaultProps = {
     },
   },
 };
+Text.defaultProps = defaultProps;
+Value.defaultProps = defaultProps;
+Root.defaultProps = defaultProps;
 
 export default Total;

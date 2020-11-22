@@ -10,26 +10,23 @@ const Card = ({ title, link }) => {
   );
 };
 
-Card.defaultProps = {
+const defaultProps = {
   theme: {
     color: {
       basic: {
         black: '#0c0c0c',
         white: '#fff',
+      },
+      primary: {
+        dark: '#000',
       },
     },
   },
 };
 
-Card.defaultProps = {
-  theme: {
-    color: {
-      basic: {
-        black: '#0c0c0c',
-        white: '#fff',
-      },
-    },
-  },
-};
+Card.defaultProps = defaultProps;
+Root.defaultProps = defaultProps;
+Title.defaultProps = defaultProps;
+Button.defaultProps = defaultProps;
 
 export default Card;

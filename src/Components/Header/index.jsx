@@ -1,14 +1,7 @@
 import { Root } from './styles';
-import { Container } from 'Styles';
-import CartButton from 'Components/CartButton';
 
-const Header = () => {
-	return (
-		<Root>
-			<Container>Logo</Container>
-			<CartButton />
-		</Root>
-	);
+const Header = ({ children }) => {
+  return <Root>{children}</Root>;
 };
 
 export default Header;

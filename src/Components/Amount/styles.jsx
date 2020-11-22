@@ -19,7 +19,6 @@ export const Button = styled.button`
   color: ${(props) => props.theme.color.primary.main};
   cursor: pointer;
   height: 20px;
-  transition: all 1s ease;
   width: 20px;
 
   :hover {

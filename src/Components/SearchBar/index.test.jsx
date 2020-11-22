@@ -1,9 +1,13 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 import SearchBar from './index';
+import { Store } from 'Store';
 
 test('Render Build SearchBar Snapshot', () => {
-	const component = renderer.create(<SearchBar />);
-	let tree = component.toJSON();
-	expect(tree).toMatchSnapshot();
+  const component = shallow(
+    <Store>
+      <SearchBar />
+    </Store>
+  );
+  expect(component).toMatchSnapshot();
 });

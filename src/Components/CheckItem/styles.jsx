@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { theme } from 'Styles/index';
 
 export const Item = styled.div`
   display: flex;

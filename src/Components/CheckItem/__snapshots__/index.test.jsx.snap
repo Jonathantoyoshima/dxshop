@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Build Check Items Snapshot 1`] = `
+<div
+  className="sc-bdfBwQ kfbpTW"
+>
+  <div
+    className="sc-hKgILt ehmWwV"
+  >
+    <button
+      className="sc-jSgupP MKxyy"
+    >
+      -
+    </button>
+    <input
+      className="sc-eCssSg ePkptF"
+      onChange={[Function]}
+      value={1}
+    />
+    <button
+      className="sc-jSgupP MKxyy"
+    >
+      +
+    </button>
+  </div>
+  <div
+    className="sc-gsTCUz htMJVZ"
+  >
+    coca cola
+  </div>
+  <div
+    className="sc-dlfnbm"
+  >
+    R$ 3,50
+  </div>
+</div>
+`;

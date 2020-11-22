@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Build Amount Snapshot 1`] = `
+<div
+  className="sc-bdfBwQ gbvaeM"
+>
+  <button
+    className="sc-dlfnbm ieqtFq"
+  >
+    -
+  </button>
+  <input
+    className="sc-gsTCUz fhZvdj"
+    onChange={[Function]}
+    value={1}
+  />
+  <button
+    className="sc-dlfnbm ieqtFq"
+  >
+    +
+  </button>
+</div>
+`;

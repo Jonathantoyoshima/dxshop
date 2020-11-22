@@ -2,17 +2,15 @@
 
 exports[`Render Build Card Snapshot 1`] = `
 <div
-  className="sc-jSgupP gcxACO"
+  className="sc-bdfBwQ laaUGo"
 >
   <div
-    className="sc-gKsewC gmfBla"
-  >
-    Livro 1
-  </div>
+    className="sc-gsTCUz jeowhY"
+  />
   <button
-    className="sc-hKgILt jEJLIv"
+    className="sc-jSgupP GixPQ"
   >
-    Adicionar
+    Adicionar ao carrinho
   </button>
 </div>
 `;

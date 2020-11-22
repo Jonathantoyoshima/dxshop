@@ -4,12 +4,16 @@ import { Root } from './styles';
 import { StoreContext } from 'Store';
 
 const SearchBar = () => {
-  const value = React.useContext(StoreContext);
+  const [store, setStore] = React.useContext(StoreContext);
+  const handleFilter = (e) => {
+    setStore({ ...store, chooseCategory: e.currentTarget.value });
+  };
+
   return (
     <Root>
-      <Select>
-        <option>Selecione aqui uma categoria</option>
-        {value.categories.map((category, index) => (
+      <Select onChange={handleFilter}>
+        <option value={-1}>Selecione aqui uma categoria</option>
+        {store.categories.map((category, index) => (
           <option key={index} value={category.id}>
             {category.name}
           </option>
@@ -17,17 +21,6 @@ const SearchBar = () => {
       </Select>
     </Root>
   );
-};
-
-SearchBar.defaultProps = {
-  theme: {
-    color: {
-      basic: {
-        black: '#0c0c0c',
-        white: '#fff',
-      },
-    },
-  },
 };
 
 export default SearchBar;

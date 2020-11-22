@@ -9,8 +9,7 @@ const Amount = () => {
     </Root>
   );
 };
-
-Amount.defaultProps = {
+const props = {
   theme: {
     color: {
       basic: {
@@ -25,5 +24,7 @@ Amount.defaultProps = {
     },
   },
 };
+Input.defaultProps = props;
+Button.defaultProps = props;
 
 export default Amount;

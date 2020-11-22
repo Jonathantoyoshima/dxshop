@@ -50,7 +50,6 @@ export const Button = styled.button`
   border: 1px solid ${(props) => props.theme.color.basic.white};
   color: ${(props) => props.theme.color.basic.white};
   cursor: pointer;
-  transition: all 1s ease;
   :hover {
     background-color: ${(props) => props.theme.color.primary.light};
     border: 1px solid ${(props) => props.theme.color.primary.dark};

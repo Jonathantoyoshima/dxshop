@@ -1,15 +1,14 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 import { ThemeProvider } from 'styled-components';
 import { theme } from 'Styles';
-import Library from './index';
+import Shop from './index';
 
-test('Render Build Library Snapshot', () => {
-	const component = renderer.create(
-		<ThemeProvider theme={theme}>
-			<Library />
-		</ThemeProvider>
-	);
-	let tree = component.toJSON();
-	expect(tree).toMatchSnapshot();
+test('Render Build Shop Snapshot', () => {
+  const component = shallow(
+    <ThemeProvider theme={theme}>
+      <Shop />
+    </ThemeProvider>
+  );
+  expect(component).toMatchSnapshot();
 });
