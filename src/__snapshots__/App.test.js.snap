@@ -2,44 +2,96 @@
 
 exports[`Render Build App Snapshot 1`] = `
 <div
-  className="sc-bdfBwQ fTJNKW"
+  className="sc-bdfBwQ bSOyzL"
 >
   <div
-    className="sc-gsTCUz cPxDYL"
+    className="sc-dlfnbm ilYjbH"
   >
     <div
-      className="sc-jSgupP cRtXmq"
+      className="sc-dQppl fDjIcV"
     >
-      <label
-        htmlFor="User"
+      <div
+        className="sc-gsTCUz idZjRl"
       >
-        Usuário: 
-      </label>
-      <input
-        className="sc-eCssSg hyIYus"
-        id="User"
-        type="text"
-      />
+        Logo
+      </div>
+      <button
+        className="sc-bqyKva bHTokw"
+      >
+        <img
+          alt="cart"
+          className="sc-kstrdz donSGT"
+          src="cart.svg"
+        />
+      </button>
     </div>
     <div
-      className="sc-jSgupP cRtXmq"
+      className="sc-gsTCUz idZjRl"
     >
-      <label
-        htmlFor="pass"
+      <div
+        className="sc-dmlrTW jRTMmn"
       >
-        Senha:
-      </label>
-      <input
-        className="sc-eCssSg hyIYus"
-        id="pass"
-        type="password"
-      />
+        <select
+          className="sc-eCssSg eIImtb"
+        >
+          <option>
+            Selecione aqui uma categoria
+          </option>
+          <option
+            value={0}
+          >
+            Bebidas
+          </option>
+          <option
+            value={1}
+          >
+            Doces
+          </option>
+          <option
+            value={2}
+          >
+            Salgados
+          </option>
+        </select>
+      </div>
+      <h1
+        className="sc-idOhPF LpcRh"
+      >
+        Lista de Produtos:
+      </h1>
+      <div
+        className="sc-bkzZxe"
+      >
+        <div
+          className="sc-dIUggk jLbckr"
+        >
+          <div
+            className="sc-hHftDr dveLzY"
+          >
+            Coca-cola lata
+          </div>
+          <button
+            className="sc-hKgILt eJBjfS"
+          >
+            Adicionar ao carrinho
+          </button>
+        </div>
+        <div
+          className="sc-dIUggk jLbckr"
+        >
+          <div
+            className="sc-hHftDr dveLzY"
+          >
+            Fanta lata
+          </div>
+          <button
+            className="sc-hKgILt eJBjfS"
+          >
+            Adicionar ao carrinho
+          </button>
+        </div>
+      </div>
     </div>
-    <button
-      className="sc-hKgILt jEJLIv"
-    >
-      Login
-    </button>
   </div>
 </div>
 `;

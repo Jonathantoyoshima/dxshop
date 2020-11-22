@@ -2,15 +2,29 @@
 
 exports[`Render Build SearchBar Snapshot 1`] = `
 <div
-  className="sc-jSgupP jxRKxB"
+  className="sc-jSgupP klkxGs"
 >
-  <div
-    className="sc-gKsewC KiYnc"
+  <select
+    className="sc-eCssSg eIImtb"
   >
-    Procurar um livro:
-  </div>
-  <input
-    className="sc-eCssSg hyIYus"
-  />
+    <option>
+      Selecione aqui uma categoria
+    </option>
+    <option
+      value={0}
+    >
+      Bebidas
+    </option>
+    <option
+      value={1}
+    >
+      Doces
+    </option>
+    <option
+      value={2}
+    >
+      Salgados
+    </option>
+  </select>
 </div>
 `;
