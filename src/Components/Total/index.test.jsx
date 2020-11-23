@@ -1,9 +1,13 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 import Total from './index';
+import { Store } from 'Store';
 
 test('Render Build Total Snapshot', () => {
-  const component = renderer.create(<Total />);
-  let tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  const component = shallow(
+    <Store>
+      <Total />
+    </Store>
+  );
+  expect(component).toMatchSnapshot();
 });

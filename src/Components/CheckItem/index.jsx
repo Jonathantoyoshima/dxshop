@@ -52,7 +52,7 @@ const CheckItem = ({ id, qtdade, index }) => {
     <Item>
       <Amount value={qtdade} change={(amount) => handleAmount(amount)} />
       <Text>{data.name}</Text>
-      <Value>{`R$ ${data.price}`}</Value>
+      <Value>{`R$ ${data.price.toFixed(2)}`}</Value>
     </Item>
   );
 };

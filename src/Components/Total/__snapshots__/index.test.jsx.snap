@@ -1,18 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render Build Total Snapshot 1`] = `
-<div
-  className="sc-bdfBwQ dWfjBh"
->
-  <div
-    className="sc-gsTCUz cXavrX"
-  >
-    Total: 
-  </div>
-  <div
-    className="sc-dlfnbm"
-  >
-    R$ 3,50
-  </div>
-</div>
-`;
+exports[`Render Build Total Snapshot 1`] = `ShallowWrapper {}`;

@@ -1,10 +1,19 @@
+import React from 'react';
 import { Root, Value, Text } from './styles';
+import { StoreContext } from 'Store';
 
 const Total = () => {
+  const [store] = React.useContext(StoreContext);
+  const value = store.cart.reduce((total, item) => {
+    const data = store.data.find((el) => el.id === item.id);
+    console.log(data);
+    return item.qtdade * data.price + total;
+  }, 0);
+
   return (
     <Root>
       <Text>Total: </Text>
-      <Value>R$ 3,50</Value>
+      <Value>{`R$ ${value.toFixed(2)}`}</Value>
     </Root>
   );
 };
