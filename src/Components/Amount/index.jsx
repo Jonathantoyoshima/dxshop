@@ -1,10 +1,10 @@
-import { Root, Button, Input } from './styles';
+import { Root, Button, Number } from './styles';
 
 const Amount = ({ value, change }) => {
   return (
     <Root>
       <Button onClick={(e) => change('decrease')}>-</Button>
-      <Input value={value} onChange={(e) => change(e.currentTarget.value)} />
+      <Number>{value}</Number>
       <Button onClick={(e) => change('increase')}>+</Button>
     </Root>
   );
@@ -24,7 +24,7 @@ const props = {
     },
   },
 };
-Input.defaultProps = props;
+Number.defaultProps = props;
 Button.defaultProps = props;
 
 export default Amount;

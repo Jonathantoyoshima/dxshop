@@ -4,10 +4,11 @@ export const Root = styled.div`
   display: flex;
 `;
 
-export const Input = styled.input`
-  background: transparent;
-  border: 0;
-  width: 25px;
+export const Number = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
   text-align: center;
   color: ${(props) => props.theme.color.primary.light};
 `;
