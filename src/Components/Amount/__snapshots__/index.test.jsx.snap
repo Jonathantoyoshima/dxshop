@@ -6,16 +6,16 @@ exports[`Render Build Amount Snapshot 1`] = `
 >
   <button
     className="sc-dlfnbm ieqtFq"
+    onClick={[Function]}
   >
     -
   </button>
-  <input
-    className="sc-gsTCUz fhZvdj"
-    onChange={[Function]}
-    value={1}
+  <div
+    className="sc-gsTCUz jGmnwG"
   />
   <button
     className="sc-dlfnbm ieqtFq"
+    onClick={[Function]}
   >
     +
   </button>
