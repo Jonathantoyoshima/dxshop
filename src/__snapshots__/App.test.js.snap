@@ -74,8 +74,7 @@ exports[`Render Build App Snapshot 1`] = `
         className="sc-bkzZxe"
       >
         <div
-          className="sc-dIUggk eALwpl"
-          hidden={true}
+          className="sc-dIUggk cJXKk"
         >
           <div
             className="sc-hHftDr fTMsvB"
@@ -90,8 +89,7 @@ exports[`Render Build App Snapshot 1`] = `
           </button>
         </div>
         <div
-          className="sc-dIUggk eALwpl"
-          hidden={true}
+          className="sc-dIUggk cJXKk"
         >
           <div
             className="sc-hHftDr fTMsvB"
@@ -106,8 +104,7 @@ exports[`Render Build App Snapshot 1`] = `
           </button>
         </div>
         <div
-          className="sc-dIUggk eALwpl"
-          hidden={true}
+          className="sc-dIUggk cJXKk"
         >
           <div
             className="sc-hHftDr fTMsvB"
@@ -122,8 +119,7 @@ exports[`Render Build App Snapshot 1`] = `
           </button>
         </div>
         <div
-          className="sc-dIUggk eALwpl"
-          hidden={true}
+          className="sc-dIUggk cJXKk"
         >
           <div
             className="sc-hHftDr fTMsvB"

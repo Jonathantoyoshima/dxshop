@@ -22,6 +22,7 @@ const Shop = () => {
         <Title>Lista de Produtos:</Title>
         <List>
           {store.data
+            .filter((item) => !store.cart.some((el) => el.id === item.id))
             .filter((item) =>
               Number(store.chooseCategory) >= 0 ? Number(item.idCategory) === Number(store.chooseCategory) : true
             )

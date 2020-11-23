@@ -19,18 +19,16 @@ const defaultProps = {
 
 const Card = ({ title, id }) => {
   const [store, setStore] = React.useContext(StoreContext);
-  const [hidden, setHidden] = React.useState(store.cart.map((e) => e.id).indexOf(id) < 0);
   const handleCart = (id) => {
     const prevStore = store.cart;
     if (prevStore.map((e) => e.id).indexOf(id) < 0) {
       prevStore.push({ id: id, qtdade: 1 });
     }
-    setHidden(prevStore.map((e) => e.id).indexOf(id) < 0);
     setStore({ ...store, cart: prevStore });
   };
 
   return (
-    <Root hidden={hidden}>
+    <Root>
       <Title>{title}</Title>
       <Button onClick={() => handleCart(id)}>Adicionar ao carrinho</Button>
     </Root>
