@@ -20,8 +20,8 @@ const Checkout = () => {
       <Container>
         <Title>Finalizar pedido</Title>
         <List>
-          {store.cart.map((item) => (
-            <CheckItem id={item.id} qtdade={item.qtdade} />
+          {store.cart.map((item, index) => (
+            <CheckItem key={index} index={index} id={item.id} qtdade={item.qtdade} />
           ))}
         </List>
         <Total />

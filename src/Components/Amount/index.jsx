@@ -1,11 +1,11 @@
 import { Root, Button, Input } from './styles';
 
-const Amount = () => {
+const Amount = ({ value, change }) => {
   return (
     <Root>
-      <Button>-</Button>
-      <Input value={1} onChange={() => {}} />
-      <Button>+</Button>
+      <Button onClick={(e) => change('decrease')}>-</Button>
+      <Input value={value} onChange={(e) => change(e.currentTarget.value)} />
+      <Button onClick={(e) => change('increase')}>+</Button>
     </Root>
   );
 };
