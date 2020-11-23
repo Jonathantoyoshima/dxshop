@@ -6,7 +6,6 @@ const Total = () => {
   const [store] = React.useContext(StoreContext);
   const value = store.cart.reduce((total, item) => {
     const data = store.data.find((el) => el.id === item.id);
-    console.log(data);
     return item.qtdade * data.price + total;
   }, 0);
 

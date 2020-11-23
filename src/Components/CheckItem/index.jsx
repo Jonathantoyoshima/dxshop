@@ -33,17 +33,7 @@ const CheckItem = ({ id, qtdade, index }) => {
         }
         setStore({ ...store, cart: cart });
         break;
-      case typeof amount === 'number':
-        console.log(amount);
-        if (amount > 0) {
-          cart[index] = { id: id, qtdade: amount };
-        } else {
-          cart.splice(index, 1);
-        }
-        setStore({ ...store, cart: cart });
-        break;
       default:
-        //value = 1;
         break;
     }
   };
