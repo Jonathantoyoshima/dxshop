@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/dxshop/static/css/main.721d5bc1.chunk.css",
-    "main.js": "/dxshop/static/js/main.62301e38.chunk.js",
-    "main.js.map": "/dxshop/static/js/main.62301e38.chunk.js.map",
+    "main.css": "/dxshop/static/css/main.c689a37a.chunk.css",
+    "main.js": "/dxshop/static/js/main.6501c92c.chunk.js",
+    "main.js.map": "/dxshop/static/js/main.6501c92c.chunk.js.map",
     "runtime-main.js": "/dxshop/static/js/runtime-main.e3b7d28b.js",
     "runtime-main.js.map": "/dxshop/static/js/runtime-main.e3b7d28b.js.map",
-    "static/js/2.da383588.chunk.js": "/dxshop/static/js/2.da383588.chunk.js",
-    "static/js/2.da383588.chunk.js.map": "/dxshop/static/js/2.da383588.chunk.js.map",
+    "static/js/2.41f5dee1.chunk.js": "/dxshop/static/js/2.41f5dee1.chunk.js",
+    "static/js/2.41f5dee1.chunk.js.map": "/dxshop/static/js/2.41f5dee1.chunk.js.map",
     "index.html": "/dxshop/index.html",
-    "static/css/main.721d5bc1.chunk.css.map": "/dxshop/static/css/main.721d5bc1.chunk.css.map",
-    "static/js/2.da383588.chunk.js.LICENSE.txt": "/dxshop/static/js/2.da383588.chunk.js.LICENSE.txt",
+    "static/css/main.c689a37a.chunk.css.map": "/dxshop/static/css/main.c689a37a.chunk.css.map",
+    "static/js/2.41f5dee1.chunk.js.LICENSE.txt": "/dxshop/static/js/2.41f5dee1.chunk.js.LICENSE.txt",
+    "static/media/arrow-left.d68734f5.svg": "/dxshop/static/media/arrow-left.d68734f5.svg",
     "static/media/cart.75480f14.svg": "/dxshop/static/media/cart.75480f14.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e3b7d28b.js",
-    "static/js/2.da383588.chunk.js",
-    "static/css/main.721d5bc1.chunk.css",
-    "static/js/main.62301e38.chunk.js"
+    "static/js/2.41f5dee1.chunk.js",
+    "static/css/main.c689a37a.chunk.css",
+    "static/js/main.6501c92c.chunk.js"
   ]
 }
