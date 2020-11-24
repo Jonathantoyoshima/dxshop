@@ -1,5 +1,6 @@
 import React from 'react';
 import { Item, Value, Text } from './styles';
+import handleAmount from './handleAmount';
 import Amount from 'Components/Amount';
 import { StoreContext } from 'Store';
 
@@ -14,33 +15,17 @@ const defaultProps = {
   },
 };
 
-const CheckItem = ({ id, qtdade, index }) => {
+const CheckItem = (props) => {
+  const { id, qtdade } = props;
   const [store, setStore] = React.useContext(StoreContext);
   const data = store.data.find((item) => item.id === id);
 
-  const handleAmount = (amount) => {
-    let cart = store.cart;
-    switch (amount) {
-      case 'increase':
-        cart[index] = { id: id, qtdade: qtdade + 1 };
-        setStore({ ...store, cart: cart });
-        break;
-      case 'decrease':
-        if (qtdade - 1 > 0) {
-          cart[index] = { id: id, qtdade: qtdade - 1 };
-        } else {
-          cart.splice(index, 1);
-        }
-        setStore({ ...store, cart: cart });
-        break;
-      default:
-        break;
-    }
-  };
-
   return (
     <Item>
-      <Amount value={qtdade} change={(amount) => handleAmount(amount)} />
+      <Amount
+        value={qtdade}
+        change={(amount) => setStore({ ...store, cart: handleAmount(props, amount, store.cart) })}
+      />
       <Text>{data.name}</Text>
       <Value>{`R$ ${data.price.toFixed(2)}`}</Value>
     </Item>
