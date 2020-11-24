@@ -16,17 +16,17 @@ exports[`Render Build App Snapshot 1`] = `
         Logo
       </div>
       <a
-        className="sc-fKFyDc hMyCpr"
+        className="sc-lmoMRL cbpsCL"
         href="#/checkout"
         onClick={[Function]}
       >
         <img
           alt="cart"
-          className="sc-bBXqnf dvyuDi"
+          className="sc-iJuUWI hIFwEy"
           src="cart.svg"
         />
         <div
-          className="sc-iwyYcG SGbKj"
+          className="sc-giIncl eKQrvb"
           hidden={false}
         >
           0
@@ -37,11 +37,12 @@ exports[`Render Build App Snapshot 1`] = `
       className="sc-gsTCUz idZjRl"
     >
       <div
-        className="sc-dmlrTW jRTMmn"
+        className="sc-iwyYcG kmqkGt"
       >
         <select
           className="sc-eCssSg eIImtb"
           onChange={[Function]}
+          value={-1}
         >
           <option
             value={-1}
@@ -66,18 +67,18 @@ exports[`Render Build App Snapshot 1`] = `
         </select>
       </div>
       <h1
-        className="sc-idOhPF LpcRh"
+        className="sc-kfzAmx gNDdlq"
       >
         Lista de Produtos:
       </h1>
       <div
-        className="sc-bkzZxe"
+        className="sc-dmlrTW"
       >
         <div
-          className="sc-dIUggk cJXKk"
+          className="sc-fKFyDc kgzjXi"
         >
           <div
-            className="sc-hHftDr fTMsvB"
+            className="sc-bBXqnf kKMwhU"
           >
             Coca-cola lata 350ml
           </div>
@@ -89,10 +90,10 @@ exports[`Render Build App Snapshot 1`] = `
           </button>
         </div>
         <div
-          className="sc-dIUggk cJXKk"
+          className="sc-fKFyDc kgzjXi"
         >
           <div
-            className="sc-hHftDr fTMsvB"
+            className="sc-bBXqnf kKMwhU"
           >
             Fanta lata 350ml
           </div>
@@ -104,10 +105,10 @@ exports[`Render Build App Snapshot 1`] = `
           </button>
         </div>
         <div
-          className="sc-dIUggk cJXKk"
+          className="sc-fKFyDc kgzjXi"
         >
           <div
-            className="sc-hHftDr fTMsvB"
+            className="sc-bBXqnf kKMwhU"
           >
             Bolinho Ana maria
           </div>
@@ -119,10 +120,10 @@ exports[`Render Build App Snapshot 1`] = `
           </button>
         </div>
         <div
-          className="sc-dIUggk cJXKk"
+          className="sc-fKFyDc kgzjXi"
         >
           <div
-            className="sc-hHftDr fTMsvB"
+            className="sc-bBXqnf kKMwhU"
           >
             Ruffes Pequeno 350g
           </div>

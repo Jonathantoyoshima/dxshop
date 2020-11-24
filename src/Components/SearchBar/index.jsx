@@ -11,7 +11,7 @@ const SearchBar = () => {
 
   return (
     <Root>
-      <Select onChange={handleFilter}>
+      <Select value={store.chooseCategory} onChange={handleFilter}>
         <option value={-1}>Selecione aqui uma categoria</option>
         {store.categories.map((category, index) => (
           <option key={index} value={category.id}>
