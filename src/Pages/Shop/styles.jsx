@@ -7,3 +7,10 @@ export const Title = styled.h1`
   text-transform: uppercase;
   margin: 16px 0;
 `;
+
+export const Pages = styled.div`
+  display: ${(props) => (props.hide ? 'none' : 'flex')};
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+`;

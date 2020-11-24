@@ -3,7 +3,7 @@ import { Select } from 'Styles';
 import { Root } from './styles';
 import { StoreContext } from 'Store';
 
-const SearchBar = () => {
+const SearchBar = ({ onChange }) => {
   const [store, setStore] = React.useContext(StoreContext);
   const handleFilter = (e) => {
     setStore({ ...store, chooseCategory: e.currentTarget.value });
@@ -11,7 +11,12 @@ const SearchBar = () => {
 
   return (
     <Root>
-      <Select value={store.chooseCategory} onChange={handleFilter}>
+      <Select
+        value={store.chooseCategory}
+        onChange={(e) => {
+          handleFilter(e);
+          onChange();
+        }}>
         <option value={-1}>Selecione aqui uma categoria</option>
         {store.categories.map((category, index) => (
           <option key={index} value={category.id}>

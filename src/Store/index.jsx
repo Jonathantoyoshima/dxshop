@@ -14,6 +14,8 @@ const data = [
   { id: 4, idCategory: 1, name: 'Bolacha Negresco', price: 2.0 },
   { id: 5, idCategory: 2, name: 'Doritos Pequeno 350g', price: 4.0 },
   { id: 6, idCategory: 1, name: 'Zezé Pacote Pequeno 350g', price: 3.0 },
+  { id: 7, idCategory: 0, name: 'Pepsi lata 350ml', price: 3.0 },
+  { id: 7, idCategory: 0, name: 'Dolly lata 350ml', price: 2.0 },
 ];
 
 const cart = [];

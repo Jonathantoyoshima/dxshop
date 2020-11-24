@@ -46,6 +46,7 @@ export const Button = styled.button`
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   border-radius: 10px;
+  display: ${(props) => props.show ? "none" : "block"};
   background-color: ${(props) => props.theme.color.primary.dark};
   border: 1px solid ${(props) => props.theme.color.basic.white};
   color: ${(props) => props.theme.color.basic.white};
@@ -54,6 +55,10 @@ export const Button = styled.button`
     background-color: ${(props) => props.theme.color.primary.light};
     border: 1px solid ${(props) => props.theme.color.primary.dark};
     color: ${(props) => props.theme.color.primary.dark};
+  };
+  :disabled {
+    background-color: gray;
+    pointer-events: none;
   }
 `;
 
