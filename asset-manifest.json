@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dxshop/static/css/main.c689a37a.chunk.css",
-    "main.js": "/dxshop/static/js/main.6501c92c.chunk.js",
-    "main.js.map": "/dxshop/static/js/main.6501c92c.chunk.js.map",
+    "main.js": "/dxshop/static/js/main.fc03339d.chunk.js",
+    "main.js.map": "/dxshop/static/js/main.fc03339d.chunk.js.map",
     "runtime-main.js": "/dxshop/static/js/runtime-main.e3b7d28b.js",
     "runtime-main.js.map": "/dxshop/static/js/runtime-main.e3b7d28b.js.map",
     "static/js/2.41f5dee1.chunk.js": "/dxshop/static/js/2.41f5dee1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e3b7d28b.js",
     "static/js/2.41f5dee1.chunk.js",
     "static/css/main.c689a37a.chunk.css",
-    "static/js/main.6501c92c.chunk.js"
+    "static/js/main.fc03339d.chunk.js"
   ]
 }
